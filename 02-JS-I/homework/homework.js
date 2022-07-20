@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'holaa';
+const nuevaString = 'holahola';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 50;
@@ -115,7 +115,7 @@ function esPar(num) {
  if (num % 2 == 0){
   return true
  }
-   return false
+   return false 
 }
 
 function esImpar(num) {
