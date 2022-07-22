@@ -141,8 +141,8 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var cuadrado = math.pow(num, 2) ;
-  return cuadrado
+   return math.pow(num, 2) ;
+  
 }
 
 function elevarAlCubo(num) {
