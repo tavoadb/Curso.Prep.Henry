@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
-  return srt;
+  console.log ('str');
 
   
 }
@@ -77,6 +77,12 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  if(str1.length===str2.length) {
+    return true;
+  }
+  else {
+     return false;
+    }
    
   
 }
