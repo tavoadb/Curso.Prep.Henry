@@ -131,14 +131,18 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  gghjjhjh
+  if (num % 2 == 1) {
+    return true 
+  }
+    return false
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+  var cuadrado = (num, 2) ;
+  return cuadrado
 }
 
 function elevarAlCubo(num) {
