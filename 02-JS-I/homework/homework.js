@@ -200,7 +200,7 @@ function esPositivo(numero) {
     return 'Es negativo'
     }
     return false 
-    }
+  
 }
 
 function agregarSimboloExclamacion(str) {
