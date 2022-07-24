@@ -190,15 +190,14 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero % 2 == 0) {
-    return 'Es positivo' 
+    console.log('Es positivo') 
   }
   if else (numero % 2 == 1) {
-    return 'Es negativo'
+    console.log('Es negativo')
     }
     else (numero == 0) {
     retur false 
     }
-  }
 }
 
 function agregarSimboloExclamacion(str) {
