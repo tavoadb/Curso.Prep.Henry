@@ -189,13 +189,18 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero % 2 == 0) {
-    return 'Es positivo'
+  if(Math.sign(numero)) {
+
+  var positivo = numero > 0
+  return positivo
+
   }
-  if (numero % 2 == 1) {
+  if (Math.sign(numero)) {
+    var negativo = numero < 0
     return 'Es negativo'
     }
-  if (numero == 0) {
+  if (Math.sign(numero)) {
+    var cero = numero == 0
     return false 
     }
 }
