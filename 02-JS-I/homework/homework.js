@@ -194,7 +194,7 @@ function esPositivo(numero) {
   return 'Es positivo'
 
   }
-  if else (numero < 0) {
+  else if(numero < 0) {
     return 'Es negativo'
     }
   else (numero == 0) {
