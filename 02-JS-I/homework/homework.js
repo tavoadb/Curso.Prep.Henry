@@ -199,7 +199,6 @@ function esPositivo(numero) {
 
     return 'Es negativo'
     }
-    numero === 0
     return false 
     }
 }
