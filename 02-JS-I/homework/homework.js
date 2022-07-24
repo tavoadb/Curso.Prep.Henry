@@ -195,7 +195,7 @@ function esPositivo(numero) {
   if (numero % 2 == 1) {
     console.log('Es negativo')
     }
-    else (numero == 0) {
+  if (numero == 0) {
     retur false 
     }
 }
