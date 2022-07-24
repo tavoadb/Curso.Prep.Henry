@@ -192,10 +192,10 @@ function esPositivo(numero) {
   if(numero % 2 == 0) {
     return 'Es positivo' 
   }
-  if else (numero % 2 == 1);{
+  if else (numero % 2 == 1) {
     return 'Es negativo'
     }
-    else (numero == 0){
+    else (numero == 0) {
     retur false 
     }
   }
