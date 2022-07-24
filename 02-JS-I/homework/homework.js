@@ -190,10 +190,10 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero % 2 == 0) {
-    console.log('Es positivo') 
+    return 'Es positivo'
   }
   if (numero % 2 == 1) {
-    console.log('Es negativo')
+    return 'Es negativo'
     }
   if (numero == 0) {
     return false 
