@@ -274,7 +274,7 @@ function esVocal(letra){
 else {
   
   
-  return 'Dato incorrecto';
+  return 'Dato incorrecto'
   }
 
 }
