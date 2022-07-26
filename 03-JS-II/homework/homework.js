@@ -11,7 +11,7 @@ function obtenerMayor(x, y) {
   else if (y > x) {
     return y
   }
-  else (y === x) {
+  else {
     return y
   }
 
